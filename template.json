@@ -24,23 +24,23 @@
         }
       },
       "abilities": {
-        "str": {
-          "value": 10
+        "brawn": {
+          "value": 1
         },
-        "dex": {
-          "value": 10
+        "daring": {
+          "value": 1
         },
-        "con": {
-          "value": 10
+        "tenacity": {
+          "value": 1
         },
-        "int": {
-          "value": 10
+        "heart": {
+          "value": 1
         },
-        "wis": {
-          "value": 10
+        "sagacity": {
+          "value": 1
         },
-        "cha": {
-          "value": 10
+        "cunning": {
+          "value": 1
         }
       }
     },
