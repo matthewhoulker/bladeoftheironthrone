@@ -1,0 +1,80 @@
+{
+    "Actor": {
+      "types": ["wanderer", "npc"],
+      "templates": {
+        "priorities": {
+          "sorcery": "",
+          "culture": "",
+          "attributes": "",
+          "skills": "",
+          "proficiencies": "",
+          "assets": ""
+        },
+        "basicattributes": {
+          "brawn": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "BN"
+          },
+          "daring": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "DG"
+          },
+          "tenacity": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "TY"
+          },
+          "heart": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "HT"
+          },
+          "sagacity": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "SY"
+          },
+          "cunning": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "CG"
+          }
+        }
+      },
+      "wanderer": {
+        "templates": ["priorities", "basicattributes"],
+        "goodness": {
+          "value": 5,
+          "max": 10
+        }
+      },
+      "npc": {
+        "templates": ["basicattributes"]
+      }
+    },
+    "Item": {
+      "types": ["weapon", "spell"],
+      "templates": {
+        "rarity": {
+          "rarity": "Common",
+          "price": 20
+        }
+      },
+      "weapon": {
+        "templates": ["rarity"],
+        "damage": 5
+      },
+      "spell": {
+        "templates": ["rarity"],
+        "cost": 2
+      }
+    }
+}
