@@ -2,32 +2,62 @@
     "Actor": {
       "types": ["wanderer", "npc"],
       "templates": {
-        "background": {
-          "biography": "",
-          "hairColor": "blue"
+        "priorities": {
+          "sorcery": "",
+          "culture": "",
+          "attributes": "",
+          "skills": "",
+          "proficiencies": "",
+          "assets": ""
         },
-        "resources": {
-          "health": {
+        "basicattributes": {
+          "brawn": {
             "min": 0,
-            "value": 10,
-            "max": 10
+            "value": 0,
+            "max": 10,
+            "abbreviation": "BN"
           },
-          "power": {
+          "daring": {
             "min": 0,
-            "value": 1,
-            "max": 3
+            "value": 0,
+            "max": 10,
+            "abbreviation": "DG"
+          },
+          "tenacity": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "TY"
+          },
+          "heart": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "HT"
+          },
+          "sagacity": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "SY"
+          },
+          "cunning": {
+            "min": 0,
+            "value": 0,
+            "max": 10,
+            "abbreviation": "CG"
           }
         }
       },
       "wanderer": {
-        "templates": ["background", "resources"],
+        "templates": ["priorities", "basicattributes"],
         "goodness": {
           "value": 5,
           "max": 10
         }
       },
       "npc": {
-        "templates": ["resources"]
+        "templates": ["basicattributes"]
       }
     },
     "Item": {
@@ -47,4 +77,4 @@
         "cost": 2
       }
     }
-    }
+}
