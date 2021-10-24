@@ -1,23 +1,29 @@
-export const BOILERPLATE = {};
+export const BLADEOFTHEIRONTHRONE = {};
+
+// Define constants here, such as:
+BLADEOFTHEIRONTHRONE.foobar = {
+  'bas': 'BLADEOFTHEIRONTHRONE.bas',
+  'bar': 'BLADEOFTHEIRONTHRONE.bar'
+};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ BLADEOFTHEIRONTHRONE.abilities = {
+  "str": "BLADEOFTHEIRONTHRONE.AbilityStr",
+  "dex": "BLADEOFTHEIRONTHRONE.AbilityDex",
+  "con": "BLADEOFTHEIRONTHRONE.AbilityCon",
+  "int": "BLADEOFTHEIRONTHRONE.AbilityInt",
+  "wis": "BLADEOFTHEIRONTHRONE.AbilityWis",
+  "cha": "BLADEOFTHEIRONTHRONE.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+BLADEOFTHEIRONTHRONE.abilityAbbreviations = {
+  "str": "BLADEOFTHEIRONTHRONE.AbilityStrAbbr",
+  "dex": "BLADEOFTHEIRONTHRONE.AbilityDexAbbr",
+  "con": "BLADEOFTHEIRONTHRONE.AbilityConAbbr",
+  "int": "BLADEOFTHEIRONTHRONE.AbilityIntAbbr",
+  "wis": "BLADEOFTHEIRONTHRONE.AbilityWisAbbr",
+  "cha": "BLADEOFTHEIRONTHRONE.AbilityChaAbbr"
 };

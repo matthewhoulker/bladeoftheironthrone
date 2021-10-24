@@ -1,22 +1,22 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "BLADEOFTHEIRONTHRONE.AbilityStr": "Strength",
+  "BLADEOFTHEIRONTHRONE.AbilityCon": "Constitution",
+  "BLADEOFTHEIRONTHRONE.AbilityDex": "Dexterity",
+  "BLADEOFTHEIRONTHRONE.AbilityInt": "Intelligence",
+  "BLADEOFTHEIRONTHRONE.AbilityWis": "Wisdom",
+  "BLADEOFTHEIRONTHRONE.AbilityCha": "Charisma",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "BLADEOFTHEIRONTHRONE.AbilityStrAbbr": "str",
+  "BLADEOFTHEIRONTHRONE.AbilityConAbbr": "con",
+  "BLADEOFTHEIRONTHRONE.AbilityDexAbbr": "dex",
+  "BLADEOFTHEIRONTHRONE.AbilityIntAbbr": "int",
+  "BLADEOFTHEIRONTHRONE.AbilityWisAbbr": "wis",
+  "BLADEOFTHEIRONTHRONE.AbilityChaAbbr": "cha",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
+  "BLADEOFTHEIRONTHRONE.EffectCreate": "Create Effect",
+  "BLADEOFTHEIRONTHRONE.EffectToggle": "Toggle Effect",
+  "BLADEOFTHEIRONTHRONE.EffectEdit": "Edit Effect",
+  "BLADEOFTHEIRONTHRONE.EffectDelete": "Delete Effect",
 
-  "BOILERPLATE.Add": "Add"
+  "BLADEOFTHEIRONTHRONE.Add": "Add"
 }
