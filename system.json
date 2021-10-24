@@ -9,7 +9,7 @@
       "scripts/botit.mjs"
     ],
     "styles": [
-      "styles/botit.css",
+      "styles/botit.css"
     ],
     "packs": [
       {
