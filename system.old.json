@@ -1,0 +1,38 @@
+{
+    "name": "bladeoftheironthrone",
+    "title": "Blade of the Iron Throne",
+    "description": "Many details here.",
+    "version": "1.0.1",
+    "templateVersion": 2,
+    "author": "Matthew Houlker",
+    "esmodules": [
+      "scripts/botit.mjs"
+    ],
+    "styles": [
+      "styles/botit.css"
+    ],
+    "packs": [
+      {
+        "name": "items",
+        "label": "My Items",
+        "path": "packs/items.db",
+        "entity": "Item"
+      }
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json"
+      }
+    ],
+    "socket": false,
+    "initiative": "1d20",
+    "gridDistance": 10,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "resources.health",
+    "secondaryTokenAttribute": "resources.power",
+    "url": "https://github.com/matthewhoulker/bladeoftheironthrone",
+    "manifest": "https://raw.githubusercontent.com/matthewhoulker/bladeoftheironthrone/master/system.json",
+    "download": "https://github.com/matthewhoulker/bladeoftheironthrone/zipball/master"
+  }
