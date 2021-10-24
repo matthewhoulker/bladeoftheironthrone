@@ -13,7 +13,7 @@
 .grid,
 .grid-2col {
   display: grid;
-  grid-column: span 2 / span 2;
+  grid-column: span 2/span 2;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin: 10px 0;
@@ -21,52 +21,52 @@
 }
 
 .grid-3col {
-  grid-column: span 3 / span 3;
+  grid-column: span 3/span 3;
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-4col {
-  grid-column: span 4 / span 4;
+  grid-column: span 4/span 4;
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-5col {
-  grid-column: span 5 / span 5;
+  grid-column: span 5/span 5;
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-6col {
-  grid-column: span 6 / span 6;
+  grid-column: span 6/span 6;
   grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-7col {
-  grid-column: span 7 / span 7;
+  grid-column: span 7/span 7;
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .grid-8col {
-  grid-column: span 8 / span 8;
+  grid-column: span 8/span 8;
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .grid-9col {
-  grid-column: span 9 / span 9;
+  grid-column: span 9/span 9;
   grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
 .grid-10col {
-  grid-column: span 10 / span 10;
+  grid-column: span 10/span 10;
   grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-11col {
-  grid-column: span 11 / span 11;
+  grid-column: span 11/span 11;
   grid-template-columns: repeat(11, minmax(0, 1fr));
 }
 
 .grid-12col {
-  grid-column: span 12 / span 12;
+  grid-column: span 12/span 12;
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
@@ -224,10 +224,15 @@
 }
 
 /* Styles limited to bladeoftheironthrone sheets */
+.bladeoftheironthrone {
+  /* ----------------------------------------- */
+  /*  Items Lists                              */
+  /* ----------------------------------------- */
+  /* Example style for botit (can be removed if not needed) */
+}
 .bladeoftheironthrone .item-form {
   font-family: "Roboto", sans-serif;
 }
-
 .bladeoftheironthrone .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 auto;
@@ -247,7 +252,6 @@
   justify-content: flex-start;
   margin-bottom: 10px;
 }
-
 .bladeoftheironthrone .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
@@ -255,50 +259,41 @@
   height: 100px;
   margin-right: 10px;
 }
-
 .bladeoftheironthrone .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
-
 .bladeoftheironthrone .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
-
 .bladeoftheironthrone .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
-
 .bladeoftheironthrone .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
-
 .bladeoftheironthrone .sheet-body,
 .bladeoftheironthrone .sheet-body .tab,
 .bladeoftheironthrone .sheet-body .tab .editor {
   height: 100%;
 }
-
 .bladeoftheironthrone .tox .tox-editor-container {
   background: #fff;
 }
-
 .bladeoftheironthrone .tox .tox-edit-area {
   padding: 0 8px;
 }
-
 .bladeoftheironthrone .resource-label {
   font-weight: bold;
 }
-
 .bladeoftheironthrone .items-header {
   height: 28px;
   margin: 2px 0;
@@ -310,12 +305,10 @@
   border: 2px groove #eeede0;
   font-weight: bold;
 }
-
 .bladeoftheironthrone .items-header > * {
   font-size: 14px;
   text-align: center;
 }
-
 .bladeoftheironthrone .items-header .item-name {
   font-weight: bold;
   padding-left: 5px;
@@ -324,7 +317,6 @@
   display: -ms-flexbox;
   display: flex;
 }
-
 .bladeoftheironthrone .items-list {
   list-style: none;
   margin: 0;
@@ -333,13 +325,11 @@
   scrollbar-width: thin;
   color: #444;
 }
-
 .bladeoftheironthrone .items-list .item-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .bladeoftheironthrone .items-list .item-name {
   -webkit-box-flex: 2;
   -ms-flex: 2;
@@ -355,13 +345,11 @@
   display: -ms-flexbox;
   display: flex;
 }
-
 .bladeoftheironthrone .items-list .item-name h3, .bladeoftheironthrone .items-list .item-name h4 {
   margin: 0;
   white-space: nowrap;
   overflow-x: hidden;
 }
-
 .bladeoftheironthrone .items-list .item-controls {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -373,29 +361,24 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
 }
-
 .bladeoftheironthrone .items-list .item-controls a {
   font-size: 12px;
   text-align: center;
   margin: 0 6px;
 }
-
 .bladeoftheironthrone .items-list .item {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   padding: 0 2px;
-  border-bottom: 1px solid #c9c7b8;
+  border-bottom: 1px solid #9b9a91;
 }
-
 .bladeoftheironthrone .items-list .item:last-child {
   border-bottom: none;
 }
-
 .bladeoftheironthrone .items-list .item .item-name {
   color: #191813;
 }
-
 .bladeoftheironthrone .items-list .item .item-name .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30px;
@@ -405,14 +388,12 @@
   border: none;
   margin-right: 5px;
 }
-
 .bladeoftheironthrone .items-list .item-prop {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
-
 .bladeoftheironthrone .items-list .items-header {
   height: 28px;
   margin: 2px 0;
@@ -424,24 +405,20 @@
   border: 2px groove #eeede0;
   font-weight: bold;
 }
-
 .bladeoftheironthrone .items-list .items-header > * {
   font-size: 12px;
   text-align: center;
 }
-
 .bladeoftheironthrone .items-list .items-header .item-name {
   padding-left: 5px;
   text-align: left;
 }
-
 .bladeoftheironthrone .item-formula {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 200px;
   flex: 0 0 200px;
   padding: 0 8px;
 }
-
 .bladeoftheironthrone .effects .item .effect-source,
 .bladeoftheironthrone .effects .item .effect-duration,
 .bladeoftheironthrone .effects .item .effect-controls {
@@ -450,7 +427,6 @@
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
-
 .bladeoftheironthrone .effects .item .effect-controls {
   border: none;
 }
