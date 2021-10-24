@@ -34,5 +34,5 @@
     "secondaryTokenAttribute": "resources.power",
     "url": "https://github.com/matthewhoulker/bladeoftheironthrone",
     "manifest": "https://raw.githubusercontent.com/matthewhoulker/bladeoftheironthrone/master/system.json",
-    "download": "https://github.com/matthewhoulker/bladeoftheironthrone.git"
+    "download": "https://github.com/matthewhoulker/bladeoftheironthrone/zipball/master"
   }
