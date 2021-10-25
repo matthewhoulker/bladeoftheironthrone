@@ -76,7 +76,7 @@
             {{#each data.derivedAbilities as |derivedAbiliy key|}}
             <div class="derivedAbiliy flexrow flex-group-center">
               <label for="data.derivedAbilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="(@derivedAbilities.{{key}}.value)d12cs<=7" data-label="{{derivedAbiliy.label}}">{{derivedAbiliy.label}}</label>
-              <input type="text" name="data.abilities.{{key}}.value" value="{{derivedAbiliy.value}}" data-dtype="Number" readonly/>
+              <input type="text" name="data.derivedAbilities.{{key}}.value" value="{{derivedAbiliy.value}}" data-dtype="Number" readonly/>
               <!--<span class="derivedAbiliy-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{derivedAbiliy.label}}">{{numberFormat derivedAbiliy.mod decimals=0 sign=true}}</span> -->
             </div>
             {{/each}}
