@@ -36,3 +36,10 @@ BLADEOFTHEIRONTHRONE.derivedAbilities = {
   "move": "BLADEOFTHEIRONTHRONE.derivedAbilityMove",
   "power": "BLADEOFTHEIRONTHRONE.derivedAbilityPower",
 };
+
+BLADEOFTHEIRONTHRONE.passionAttributes = {
+  "passionOne": "BLADEOFTHEIRONTHRONE.passionOne",
+  "passionTwo": "BLADEOFTHEIRONTHRONE.passionTwo",
+  "passionThree": "BLADEOFTHEIRONTHRONE.passionThree",
+  "passionFour": "BLADEOFTHEIRONTHRONE.passionFour",
+};

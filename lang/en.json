@@ -20,6 +20,13 @@
 "BLADEOFTHEIRONTHRONE.derivedAbilityMove":"Move",
 "BLADEOFTHEIRONTHRONE.derivedAbilityPower":"Power",
 
+
+"BLADEOFTHEIRONTHRONE.passionOne":"Passion 1",
+"BLADEOFTHEIRONTHRONE.passionTwo":"Passion 2",
+"BLADEOFTHEIRONTHRONE.passionThree":"Passion 3",
+"BLADEOFTHEIRONTHRONE.passionFour":"Passion 4",
+
+
   "BLADEOFTHEIRONTHRONE.EffectCreate": "Create Effect",
   "BLADEOFTHEIRONTHRONE.EffectToggle": "Toggle Effect",
   "BLADEOFTHEIRONTHRONE.EffectEdit": "Edit Effect",
