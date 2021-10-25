@@ -58,7 +58,7 @@
     {{!-- Owned Features Tab --}}
     <div class="tab features" data-group="primary" data-tab="features">
       <section class="grid grid-3col">
-        <aside class="sidebar">
+        <aside class="sidebar grid-span-3">
 
           {{!-- The grid classes are defined in scss/global/_grid.scss. To use,
           use both the "grid" and "grid-Ncol" class where "N" can be any number
@@ -99,7 +99,7 @@
         </aside>
 
         {{!-- For the main features list, span the right two columns --}}
-        <section class="main grid-span-1">
+        <section class="main grid-span-3">
           {{!-- This is a Handlebars partial. They're stored in the `/parts` folder next to this sheet, and defined in module/helpers/templates.mjs --}}
           {{> "systems/bladeoftheironthrone/templates/actor/parts/actor-features.html"}}
         </section>

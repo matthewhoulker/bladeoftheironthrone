@@ -220,7 +220,15 @@ export class botitActorSheet extends ActorSheet {
       }
       // Handle passion rolls.
       else if (dataset.rollType == 'passion'){
-        console.log(actorData.passionAttributes[dataset.label].name);
+        var name = actorData.passionAttributes[dataset.label].name;
+        var value =actorData.passionAttributes[dataset.label].value;
+        let roll = new Roll(value+"d12cs>=7").roll();
+        roll.toMessage({
+          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+          flavor: name,
+          rollMode: game.settings.get('core', 'rollMode'),
+        });
+
         console.log("actor")
         console.log(this.actor)
         console.log("data")
