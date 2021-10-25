@@ -64,6 +64,7 @@
           use both the "grid" and "grid-Ncol" class where "N" can be any number
           from 1 to 12 and will create that number of columns.  --}}
           <div class="abilities flexcol">
+            <h3>Basic Attributes</h3>
             {{#each data.abilities as |ability key|}}
             <div class="ability flexrow flex-group-center">
               <label for="data.abilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="(@abilities.{{key}}.value)d12cs<=7" data-label="{{ability.label}}">{{ability.label}}</label>
@@ -72,12 +73,24 @@
             </div>
             {{/each}}
           </div>
+          <h3>Passion Attributes</h3>
+          <div class="passionAttributes flexcol">
+            {{#each data.passionAttributes as |passionAttribute key|}}
+            <div class="passionAttribute flexrow flex-group-center">
+              <label for="data.passionAttributes.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="(@passionAttributes.{{key}}.value)d12cs<=7" data-label="{{passionAttribute.label}}">{{passionAttribute.label}}</label>
+              <input type="text" name="data.passionAttributes.{{key}}.value" value="{{passionAttribute.value}}" data-dtype="Number"/>
+              <input type="text" name="data.passionAttributes.{{key}}.name" value="{{passionAttribute.name}}" data-dtype="Text"/>
+              <!--<span class="passionAttribute-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{passionAttribute.label}}">{{numberFormat passionAttribute.mod decimals=0 sign=true}}</span> -->
+            </div>
+            {{/each}}
+          </div>
+          <h3>Combined Attributes</h3>
           <div class="derivedAbilities flexcol">
-            {{#each data.derivedAbilities as |derivedAbiliy key|}}
-            <div class="derivedAbiliy flexrow flex-group-center">
-              <label for="data.derivedAbilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="(@derivedAbilities.{{key}}.value)d12cs<=7" data-label="{{derivedAbiliy.label}}">{{derivedAbiliy.label}}</label>
-              <input type="text" name="data.derivedAbilities.{{key}}.value" value="{{derivedAbiliy.value}}" data-dtype="Number" readonly/>
-              <!--<span class="derivedAbiliy-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{derivedAbiliy.label}}">{{numberFormat derivedAbiliy.mod decimals=0 sign=true}}</span> -->
+            {{#each data.derivedAbilities as |derivedAbility key|}}
+            <div class="derivedAbility flexrow flex-group-center">
+              <label for="data.derivedAbilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="(@derivedAbilities.{{key}}.value)d12cs<=7" data-label="{{derivedAbility.label}}">{{derivedAbility.label}}</label>
+              <input type="text" name="data.derivedAbilities.{{key}}.value" value="{{derivedAbility.value}}" data-dtype="Number" readonly/>
+              <!--<span class="derivedAbility-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{derivedAbility.label}}">{{numberFormat derivedAbility.mod decimals=0 sign=true}}</span> -->
             </div>
             {{/each}}
           </div>

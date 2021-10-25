@@ -68,6 +68,24 @@
         "power": {
           "value": 1
         }
+      },
+      "passionAttributes":{
+        "passionOne":{
+          "value": 0,
+          "name": ""
+        },
+        "passionTwo":{
+          "value": 0,
+          "name": ""
+        },
+        "passionThree":{
+          "value": 0,
+          "name": ""
+        },
+        "passionFour":{
+          "value": 0,
+          "name": ""
+        }
       }
     },
     "npc": {
