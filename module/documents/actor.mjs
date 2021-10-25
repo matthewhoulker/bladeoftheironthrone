@@ -53,7 +53,7 @@ export class botitActor extends Actor {
       // Calculate the modifier using d20 rules.
       ability.mod = Math.floor((ability.value - 10) / 2);
     }
-    data.derivedAbilities.reflex.value = (number(data.abilities.daring.value)+number(data.abilities.cunning.value))/2;
+    data.derivedAbilities.reflex.value = (data.abilities.daring.value + data.abilities.cunning.value)/2;
   }
 
   /**
