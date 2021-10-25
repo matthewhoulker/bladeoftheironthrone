@@ -20,12 +20,12 @@ BLADEOFTHEIRONTHRONE.foobar = {
 };
 
 BLADEOFTHEIRONTHRONE.abilityAbbreviations = {
-  "brawn": "BLADEOFTHEIRONTHRONE.AbilityBrawnAbbr",
-  "daring": "BLADEOFTHEIRONTHRONE.AbilityDaringAbbr",
-  "tenacity": "BLADEOFTHEIRONTHRONE.AbilityTenacityAbbr",
-  "heart": "BLADEOFTHEIRONTHRONE.AbilityHeartAbbr",
-  "sagacity": "BLADEOFTHEIRONTHRONE.AbilitySagacityAbbr",
-  "cunning": "BLADEOFTHEIRONTHRONE.AbilityCunningAbbr"
+  "BN": "BLADEOFTHEIRONTHRONE.AbilityBrawnAbbr",
+  "DR": "BLADEOFTHEIRONTHRONE.AbilityDaringAbbr",
+  "TY": "BLADEOFTHEIRONTHRONE.AbilityTenacityAbbr",
+  "HT": "BLADEOFTHEIRONTHRONE.AbilityHeartAbbr",
+  "SY": "BLADEOFTHEIRONTHRONE.AbilitySagacityAbbr",
+  "CG": "BLADEOFTHEIRONTHRONE.AbilityCunningAbbr"
 };
 
 BLADEOFTHEIRONTHRONE.derivedAbilities = {
