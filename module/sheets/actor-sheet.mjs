@@ -71,6 +71,9 @@ export class botitActorSheet extends ActorSheet {
     for (let [k, v] of Object.entries(context.data.abilities)) {
       v.label = game.i18n.localize(CONFIG.BLADEOFTHEIRONTHRONE.abilities[k]) ?? k;
     }
+    for (let [k, v] of Object.entries(context.data.derivedAbilities)) {
+      v.label = game.i18n.localize(CONFIG.BLADEOFTHEIRONTHRONE.derivedAbilities[k]) ?? k;
+    }
   }
 
   /**
