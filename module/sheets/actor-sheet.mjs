@@ -219,9 +219,9 @@ export class botitActorSheet extends ActorSheet {
       }
       // Handle passion rolls.
       else if (dataset.rollType == 'passion'){
-        console.log("element")
-        console.log(element)
-        console.log("dataset")
+        console.log("actor")
+        console.log(this.actor)
+        console.log("data")
         console.log(dataset)
       }
     }
