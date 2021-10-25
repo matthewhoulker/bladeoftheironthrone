@@ -25,21 +25,47 @@
       },
       "abilities": {
         "brawn": {
-          "value": 1
+          "value": 1,
+          "abbr": "BN"
         },
         "daring": {
-          "value": 1
+          "value": 1,
+          "abbr": "DG"
         },
         "tenacity": {
-          "value": 1
+          "value": 1,
+          "abbr": "TY"
         },
         "heart": {
-          "value": 1
+          "value": 1,
+          "abbr": "HT"
         },
         "sagacity": {
-          "value": 1
+          "value": 1,
+          "abbr": "SY"
         },
         "cunning": {
+          "value": 1,
+          "abbr": "CG"
+        }
+      },
+      "derivedAbilities": {
+        "reflex": {
+          "value": 1
+        },
+        "aim": {
+          "value": 1
+        },
+        "knockdown": {
+          "value": 1
+        },
+        "knockout": {
+          "value": 1
+        },
+        "move": {
+          "value": 1
+        },
+        "power": {
           "value": 1
         }
       }
