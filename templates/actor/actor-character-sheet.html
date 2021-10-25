@@ -84,7 +84,6 @@
               <input type="text" name="data.passionAttributes.{{key}}.name" value="{{passionAttribute.name}}" data-dtype="Text"/>
               <!--<span class="passionAttribute-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{passionAttribute.label}}">{{numberFormat passionAttribute.mod decimals=0 sign=true}}</span> -->
             </div>
-            </div>
             {{/each}}
           </div>
           <h3>Combined Attributes</h3>
@@ -100,7 +99,7 @@
         </aside>
 
         {{!-- For the main features list, span the right two columns --}}
-        <section class="main grid-span-2">
+        <section class="main grid-span-1">
           {{!-- This is a Handlebars partial. They're stored in the `/parts` folder next to this sheet, and defined in module/helpers/templates.mjs --}}
           {{> "systems/bladeoftheironthrone/templates/actor/parts/actor-features.html"}}
         </section>
