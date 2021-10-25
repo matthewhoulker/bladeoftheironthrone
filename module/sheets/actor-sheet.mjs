@@ -210,12 +210,19 @@ export class botitActorSheet extends ActorSheet {
     const element = event.currentTarget;
     const dataset = element.dataset;
 
-    // Handle item rolls.
     if (dataset.rollType) {
+      // Handle item rolls.
       if (dataset.rollType == 'item') {
         const itemId = element.closest('.item').dataset.itemId;
         const item = this.actor.items.get(itemId);
         if (item) return item.roll();
+      }
+      // Handle passion rolls.
+      else if (dataset.rollType == 'passion'){
+        console.log("element")
+        console.log(element)
+        console.log("dataset")
+        console.log(dataset)
       }
     }
 

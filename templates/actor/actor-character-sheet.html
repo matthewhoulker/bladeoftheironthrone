@@ -77,11 +77,11 @@
           <div class="passionAttributes flexcol">
             {{#each data.passionAttributes as |passionAttribute key|}}
             <div class="passionAttribute flexrow flex-group-center">
-              <label for="data.passionAttributes.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll="(@passionAttributes.{{key}}.value)d12cs<=7" data-label="{{passionAttribute.label}}">{{passionAttribute.label}}</label>
+              <label for="data.passionAttributes.{{key}}.value" class="resource-label rollable flexlarge align-left" data-roll-type="passion" data-label="{{passionAttribute.label}}">{{passionAttribute.label}}</label>
               <input type="text" name="data.passionAttributes.{{key}}.value" value="{{passionAttribute.value}}" data-dtype="Number"/>
             </div>
             <div class="passionAttribute flexrow flex-group-center">
-              <input type="text" name="data.passionAttributes.{{key}}.name" value="{{passionAttribute.name}}" data-dtype="Text"/>
+              <input type="text" name="data.passionAttributes.{{key}}.name" value="{{passionAttribute.name}}" data-dtype="String"/>
               <!--<span class="passionAttribute-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{passionAttribute.label}}">{{numberFormat passionAttribute.mod decimals=0 sign=true}}</span> -->
             </div>
             {{/each}}
