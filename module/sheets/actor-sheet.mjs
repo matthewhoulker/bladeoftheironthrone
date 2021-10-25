@@ -209,6 +209,7 @@ export class botitActorSheet extends ActorSheet {
     event.preventDefault();
     const element = event.currentTarget;
     const dataset = element.dataset;
+    const actorData = this.actor.data.data;
 
     if (dataset.rollType) {
       // Handle item rolls.
@@ -219,6 +220,7 @@ export class botitActorSheet extends ActorSheet {
       }
       // Handle passion rolls.
       else if (dataset.rollType == 'passion'){
+        console.log(actorData.passionAttributes[dataset.label].name);
         console.log("actor")
         console.log(this.actor)
         console.log("data")
