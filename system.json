@@ -2,7 +2,7 @@
   "name": "bladeoftheironthrone",
   "title": "Blade of the Iron Throne",
   "description": "The Blade of the Iron Throne system for FoundryVTT!",
-  "version": "1.0.91",
+  "version": "1.0.92",
   "minimumCoreVersion": "0.8.5",
   "compatibleCoreVersion": "0.8.9",
   "author": "Matthew Houlker",
