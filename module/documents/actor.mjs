@@ -48,13 +48,20 @@ export class botitActor extends Actor {
     // Make modifications to data here. For example:
     const data = actorData.data;
 
-    // Loop through ability scores, and add their modifiers to our sheet output.
+    /* Loop through ability scores, and add their modifiers to our sheet output.
     for (let [key, ability] of Object.entries(data.abilities)) {
       // Calculate the modifier using d20 rules.
       ability.mod = Math.floor((ability.value - 10) / 2);
-    }
+    }*/
     data.derivedAbilities.reflex.value = (data.abilities.daring.value + data.abilities.cunning.value)/2;
+    data.derivedAbilities.aim.value = (data.abilities.sagacity.value + data.abilities.cunning.value)/2;
+    data.derivedAbilities.knockdown.value = (data.abilities.brawn.value + data.abilities.daring.value)/2;
+    data.derivedAbilities.knockout.value = (data.abilities.brawn.value + data.abilities.tenacity.value)/2;
+    data.derivedAbilities.move.value = (data.abilities.brawn.value + data.abilities.cunning.value + data.abilities.daring.value)/2;
+    //needs mysteries known added
+    data.derivedAbilities.power.value = (data.abilities.sagacity.value + data.abilities.tenacity.value, data.abilities.brawn.value)/3;
   }
+  
 
   /**
    * Prepare NPC type specific data.
