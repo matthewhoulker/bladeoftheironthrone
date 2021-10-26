@@ -92,22 +92,184 @@
       },
       "priorities":{
         "sorcery":{
-          "value": ""
+          "value": "",
+          "indexKey": "prioritySorcery"
         },
         "culture":{
-          "value": ""
+          "value": "",
+          "indexKey": "priorityCulture"
         },
         "attributes":{
-          "value": ""
+          "value": "",
+          "indexKey": "priorityAttributes"
         },
         "skills":{
-          "value": ""
+          "value": "",
+          "indexKey": "prioritySkills"
         },
         "proficiencies":{
-          "value": ""
+          "value": "",
+          "indexKey": "priorityProficiencies"
         },
         "assets":{
-          "value": ""
+          "value": "",
+          "indexKey": "priorityAssets"
+        }
+      },
+      "prioritySorcery":{
+        "A":{
+          "description":"34",
+          "value": 34
+        },
+        "B":{
+          "description":"29",
+          "value": 29
+        },
+        "C":{
+          "description":"26",
+          "value": 26
+        },
+        "D":{
+          "description":"24",
+          "value": 24
+        },
+        "E":{
+          "description":"22",
+          "value": 22
+        },
+        "F":{
+          "description":"18",
+          "value": 18
+        }
+      },
+      "priorityCulture":{
+        "A":{
+          "description":"34",
+          "value": 34
+        },
+        "B":{
+          "description":"29",
+          "value": 29
+        },
+        "C":{
+          "description":"26",
+          "value": 26
+        },
+        "D":{
+          "description":"24",
+          "value": 24
+        },
+        "E":{
+          "description":"22",
+          "value": 22
+        },
+        "F":{
+          "description":"18",
+          "value": 18
+        }
+      },
+      "priorityAttributes":{
+        "A":{
+          "description":"34",
+          "value": 34
+        },
+        "B":{
+          "description":"29",
+          "value": 29
+        },
+        "C":{
+          "description":"26",
+          "value": 26
+        },
+        "D":{
+          "description":"24",
+          "value": 24
+        },
+        "E":{
+          "description":"22",
+          "value": 22
+        },
+        "F":{
+          "description":"18",
+          "value": 18
+        }
+      },
+      "prioritySkills":{
+        "A":{
+          "description":"34",
+          "value": 34
+        },
+        "B":{
+          "description":"29",
+          "value": 29
+        },
+        "C":{
+          "description":"26",
+          "value": 26
+        },
+        "D":{
+          "description":"24",
+          "value": 24
+        },
+        "E":{
+          "description":"22",
+          "value": 22
+        },
+        "F":{
+          "description":"18",
+          "value": 18
+        }
+      },
+      "priorityProficiencies":{
+        "A":{
+          "description":"34",
+          "value": 34
+        },
+        "B":{
+          "description":"29",
+          "value": 29
+        },
+        "C":{
+          "description":"26",
+          "value": 26
+        },
+        "D":{
+          "description":"24",
+          "value": 24
+        },
+        "E":{
+          "description":"22",
+          "value": 22
+        },
+        "F":{
+          "description":"18",
+          "value": 18
+        }
+      },
+      "priorityAssets":{
+        "A":{
+          "description":"34",
+          "value": 34
+        },
+        "B":{
+          "description":"29",
+          "value": 29
+        },
+        "C":{
+          "description":"26",
+          "value": 26
+        },
+        "D":{
+          "description":"24",
+          "value": 24
+        },
+        "E":{
+          "description":"22",
+          "value": 22
+        },
+        "F":{
+          "description":"18",
+          "value": 18
         }
       }
     },

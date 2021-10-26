@@ -1,6 +1,22 @@
 {{!-- The grid classes are defined in scss/global/_grid.scss. To use,
 use both the "grid" and "grid-Ncol" class where "N" can be any number
 from 1 to 12 and will create that number of columns. --}}
+<div class="flexcol priorities">
+  <h2>Priorities</h2>
+  {{#each data.priorities as |priority key|}}
+  <div class="priorities flexrow flex-group-center">
+    <label for="data.priorities.{{key}}.value"
+      class="resource-label flexlarge align-left">{{key}}</label>
+    <select name="data.priorities.{{key}}.value" dtype="String">
+      {{#select priority.value}}
+      {{#each data.priorityCulture as |option keyValue|}}
+        <option value="{{keyValue}}">{{option.description}}</option>
+      {{/each}}
+      {{/select}}
+    </select>
+  </div>
+  {{/each}}
+</div>
 <div class="abilities flexcol">
   <div class="flex-group-center">
     <h2>Basic Attributes</h2>
