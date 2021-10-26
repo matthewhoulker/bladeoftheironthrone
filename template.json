@@ -86,6 +86,29 @@
           "value": 0,
           "name": ""
         }
+      },
+      "drama":{
+        "value": 0
+      },
+      "priorities":{
+        "sorcery":{
+          "value": ""
+        },
+        "culture":{
+          "value": ""
+        },
+        "attributes":{
+          "value": ""
+        },
+        "skills":{
+          "value": ""
+        },
+        "proficiencies":{
+          "value": ""
+        },
+        "assets":{
+          "value": ""
+        }
       }
     },
     "npc": {

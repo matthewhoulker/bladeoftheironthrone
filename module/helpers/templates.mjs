@@ -11,5 +11,6 @@
     "systems/bladeoftheironthrone/templates/actor/parts/actor-items.html",
     "systems/bladeoftheironthrone/templates/actor/parts/actor-spells.html",
     "systems/bladeoftheironthrone/templates/actor/parts/actor-effects.html",
+    "systems/bladeoftheironthrone/templates/actor/parts/actor-attributes.html",
   ]);
 };

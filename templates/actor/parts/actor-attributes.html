@@ -1,0 +1,56 @@
+{{!-- The grid classes are defined in scss/global/_grid.scss. To use,
+use both the "grid" and "grid-Ncol" class where "N" can be any number
+from 1 to 12 and will create that number of columns. --}}
+<div class="abilities flexcol">
+  <div class="flex-group-center">
+    <h2>Basic Attributes</h2>
+    {{#each data.abilities as |ability key|}}
+    <div class="ability flexrow flex-group-center">
+      <label for="data.abilities.{{key}}.value" class="resource-label rollable flexlarge align-left"
+        data-roll="(@abilities.{{key}}.value)d12cs<=7" data-label="{{ability.label}}">{{ability.label}}</label>
+      <input type="text" name="data.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number" />
+      <!--<span class="ability-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{ability.label}}">{{numberFormat ability.mod decimals=0 sign=true}}</span> -->
+    </div>
+    {{/each}}
+  </div>
+  <div class="flex-group-center">
+    <h2>Passion Attributes</h2>
+    <div class="passionAttributes flexcol">
+      {{#each data.passionAttributes as |passionAttribute key|}}
+      <div class="passionAttribute flexrow flex-group-center">
+        <label for="data.passionAttributes.{{key}}.value" class="resource-label rollable flexlarge align-left"
+          data-roll-type="passion" data-label="{{passionAttribute.label}}">{{passionAttribute.label}}</label>
+        <input type="text" name="data.passionAttributes.{{key}}.value" value="{{passionAttribute.value}}"
+          data-dtype="Number" />
+      </div>
+      <div class="passionAttribute flexrow flex-group-center">
+        <input type="text" name="data.passionAttributes.{{key}}.name" value="{{passionAttribute.name}}"
+          data-dtype="String" />
+        <!--<span class="passionAttribute-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{passionAttribute.label}}">{{numberFormat passionAttribute.mod decimals=0 sign=true}}</span> -->
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <div class="flex-group-center">
+    <h2>Drama</h2>
+    <div class="drama flexrow flex-group-center">
+      <label for="data.drama.value" class="resource-label flexlarge align-left">Drama</label>
+      <input type="text" name="data.drama.value" value="{{data.drama.value}}" data-dtype="Number" />
+    </div>
+  </div>
+  <div class="flex-group-center">
+    <h2>Combined Attributes</h2>
+    <div class="derivedAbilities flexcol">
+      {{#each data.derivedAbilities as |derivedAbility key|}}
+      <div class="derivedAbility flexrow flex-group-center">
+        <label for="data.derivedAbilities.{{key}}.value" class="resource-label rollable flexlarge align-left"
+          data-roll="(@derivedAbilities.{{key}}.value)d12cs<=7"
+          data-label="{{derivedAbility.label}}">{{derivedAbility.label}}</label>
+        <input type="text" name="data.derivedAbilities.{{key}}.value" value="{{derivedAbility.value}}"
+          data-dtype="Number" readonly />
+        <!--<span class="derivedAbility-mod rollable" data-roll="d20+@abilities.{{key}}.mod" data-label="{{derivedAbility.label}}">{{numberFormat derivedAbility.mod decimals=0 sign=true}}</span> -->
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
