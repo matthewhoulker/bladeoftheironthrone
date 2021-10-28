@@ -8,10 +8,8 @@ from 1 to 12 and will create that number of columns. --}}
     <label for="data.priorities.{{key}}.value"
       class="resource-label flexlarge align-left">{{key}}</label>
     <select name="data.priorities.{{key}}.value" dtype="String">
-      {{#select priority.value}}
-      {{#each data.priorityCulture as |option keyValue|}}
-        <option value="{{keyValue}}">{{option.description}}</option>
-      {{/each}}
+       {{#select priority.value}}
+         {{selectOptions priority.index selected=priority.value nameAttr="value" labelAttr="description"}}
       {{/select}}
     </select>
   </div>

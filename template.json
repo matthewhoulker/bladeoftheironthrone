@@ -1,6 +1,9 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": [
+      "character",
+      "npc"
+    ],
     "templates": {
       "base": {
         "health": {
@@ -17,7 +20,9 @@
       }
     },
     "character": {
-      "templates": ["base"],
+      "templates": [
+        "base"
+      ],
       "attributes": {
         "level": {
           "value": 1
@@ -69,233 +74,239 @@
           "value": 1
         }
       },
-      "passionAttributes":{
-        "passionOne":{
+      "passionAttributes": {
+        "passionOne": {
           "value": 0,
           "name": ""
         },
-        "passionTwo":{
+        "passionTwo": {
           "value": 0,
           "name": ""
         },
-        "passionThree":{
+        "passionThree": {
           "value": 0,
           "name": ""
         },
-        "passionFour":{
+        "passionFour": {
           "value": 0,
           "name": ""
         }
       },
-      "drama":{
+      "drama": {
         "value": 0
       },
-      "priorities":{
-        "sorcery":{
+      "priorities": {
+        "sorcery": {
           "value": "",
-          "indexKey": "prioritySorcery"
+          "index": {
+            "A": {
+              "description":"Can know all Mysteries, both Lesser and Greater.<br>Starts with 1 Arcane Secret.<br>+1 point in Occultism <br>+1 Proficiency in a Mystery<br>Cannot put more Proficiency points into Greater than into Lesser Mysteries",
+              "value": "Mysteriarch"
+            },
+            "B": {
+              "description": "Can know either all six Lesser Mysteries, or three Lesser and one Greater Mystery<br>+1 point in Occultism<br>Greater Mystery cannot have more ranks than their highest Lesser Mystery",
+              "value": "Sorcerer"
+            },
+            "C": {
+              "description": "Can know up to two Lesser Mysteries.<br> Enslavement and Witchfire can’t both be chosen.",
+              "value": "Dabbler"
+            },
+            "D": {
+              "description": "No Effect",
+              "value": "Mundane"
+            },
+            "E": {
+              "description": "+2 TN on checks to resist Sorcery",
+              "value": "Cursed"
+            },
+            "F": {
+              "description": "+2 TN on checks to resist Sorcery<br>Permanent rating 6 Curse.",
+              "value": "Doomed"
+            }
+          }
         },
-        "culture":{
+        "culture": {
           "value": "",
-          "indexKey": "priorityCulture"
+          "index": {
+            "A": {
+              "description": "34",
+              "value": 34
+            },
+            "B": {
+              "description": "29",
+              "value": 29
+            },
+            "C": {
+              "description": "26",
+              "value": 26
+            },
+            "D": {
+              "description": "24",
+              "value": 24
+            },
+            "E": {
+              "description": "22",
+              "value": 22
+            },
+            "F": {
+              "description": "18",
+              "value": 18
+            }
+          }
         },
-        "attributes":{
+        "attributes": {
           "value": "",
-          "indexKey": "priorityAttributes"
+          "index": {
+            "A": {
+              "description": "34",
+              "value": 34
+            },
+            "B": {
+              "description": "29",
+              "value": 29
+            },
+            "C": {
+              "description": "26",
+              "value": 26
+            },
+            "D": {
+              "description": "24",
+              "value": 24
+            },
+            "E": {
+              "description": "22",
+              "value": 22
+            },
+            "F": {
+              "description": "18",
+              "value": 18
+            }
+          }
         },
-        "skills":{
+        "skills": {
           "value": "",
-          "indexKey": "prioritySkills"
+          "index": {
+            "A": {
+              "description": "34",
+              "value": 34
+            },
+            "B": {
+              "description": "29",
+              "value": 29
+            },
+            "C": {
+              "description": "26",
+              "value": 26
+            },
+            "D": {
+              "description": "24",
+              "value": 24
+            },
+            "E": {
+              "description": "22",
+              "value": 22
+            },
+            "F": {
+              "description": "18",
+              "value": 18
+            }
+          }
         },
-        "proficiencies":{
+        "proficiencies": {
           "value": "",
-          "indexKey": "priorityProficiencies"
+          "index": {
+            "A": {
+              "description": "34",
+              "value": 34
+            },
+            "B": {
+              "description": "29",
+              "value": 29
+            },
+            "C": {
+              "description": "26",
+              "value": 26
+            },
+            "D": {
+              "description": "24",
+              "value": 24
+            },
+            "E": {
+              "description": "22",
+              "value": 22
+            },
+            "F": {
+              "description": "18",
+              "value": 18
+            }
+          }
         },
-        "assets":{
+        "assets": {
           "value": "",
-          "indexKey": "priorityAssets"
-        }
-      },
-      "prioritySorcery":{
-        "A":{
-          "description":"34",
-          "value": 34
-        },
-        "B":{
-          "description":"29",
-          "value": 29
-        },
-        "C":{
-          "description":"26",
-          "value": 26
-        },
-        "D":{
-          "description":"24",
-          "value": 24
-        },
-        "E":{
-          "description":"22",
-          "value": 22
-        },
-        "F":{
-          "description":"18",
-          "value": 18
-        }
-      },
-      "priorityCulture":{
-        "A":{
-          "description":"34",
-          "value": 34
-        },
-        "B":{
-          "description":"29",
-          "value": 29
-        },
-        "C":{
-          "description":"26",
-          "value": 26
-        },
-        "D":{
-          "description":"24",
-          "value": 24
-        },
-        "E":{
-          "description":"22",
-          "value": 22
-        },
-        "F":{
-          "description":"18",
-          "value": 18
-        }
-      },
-      "priorityAttributes":{
-        "A":{
-          "description":"34",
-          "value": 34
-        },
-        "B":{
-          "description":"29",
-          "value": 29
-        },
-        "C":{
-          "description":"26",
-          "value": 26
-        },
-        "D":{
-          "description":"24",
-          "value": 24
-        },
-        "E":{
-          "description":"22",
-          "value": 22
-        },
-        "F":{
-          "description":"18",
-          "value": 18
-        }
-      },
-      "prioritySkills":{
-        "A":{
-          "description":"34",
-          "value": 34
-        },
-        "B":{
-          "description":"29",
-          "value": 29
-        },
-        "C":{
-          "description":"26",
-          "value": 26
-        },
-        "D":{
-          "description":"24",
-          "value": 24
-        },
-        "E":{
-          "description":"22",
-          "value": 22
-        },
-        "F":{
-          "description":"18",
-          "value": 18
-        }
-      },
-      "priorityProficiencies":{
-        "A":{
-          "description":"34",
-          "value": 34
-        },
-        "B":{
-          "description":"29",
-          "value": 29
-        },
-        "C":{
-          "description":"26",
-          "value": 26
-        },
-        "D":{
-          "description":"24",
-          "value": 24
-        },
-        "E":{
-          "description":"22",
-          "value": 22
-        },
-        "F":{
-          "description":"18",
-          "value": 18
-        }
-      },
-      "priorityAssets":{
-        "A":{
-          "description":"34",
-          "value": 34
-        },
-        "B":{
-          "description":"29",
-          "value": 29
-        },
-        "C":{
-          "description":"26",
-          "value": 26
-        },
-        "D":{
-          "description":"24",
-          "value": 24
-        },
-        "E":{
-          "description":"22",
-          "value": 22
-        },
-        "F":{
-          "description":"18",
-          "value": 18
+          "index": {
+            "A": {
+              "description": "34",
+              "value": 34
+            },
+            "B": {
+              "description": "29",
+              "value": 29
+            },
+            "C": {
+              "description": "26",
+              "value": 26
+            },
+            "D": {
+              "description": "24",
+              "value": 24
+            },
+            "E": {
+              "description": "22",
+              "value": 22
+            },
+            "F": {
+              "description": "18",
+              "value": 18
+            }
+          }
         }
       }
     },
     "npc": {
-      "templates": ["base"],
+      "templates": [
+        "base"
+      ],
       "cr": 0
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": [
+      "item",
+      "feature",
+      "spell"
+    ],
     "templates": {
       "base": {
         "description": ""
       }
     },
     "item": {
-      "templates": ["base"],
+      "templates": [
+        "base"
+      ],
       "quantity": 1,
       "weight": 0,
       "formula": "d20 + @str.mod + ceil(@lvl / 2)"
     },
     "feature": {
-      "templates": ["base"]
+      "templates": [
+        "base"
+      ]
     },
     "spell": {
-      "templates": ["base"],
+      "templates": [
+        "base"
+      ],
       "spellLevel": 1
     }
   }
