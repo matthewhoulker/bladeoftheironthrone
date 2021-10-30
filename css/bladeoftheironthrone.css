@@ -291,6 +291,9 @@
 .bladeoftheironthrone .tox .tox-edit-area {
   padding: 0 8px;
 }
+.bladeoftheironthrone .skill-description {
+  height: 50em;
+}
 .bladeoftheironthrone .resource-label {
   font-weight: bold;
 }

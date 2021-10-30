@@ -7,7 +7,7 @@
   return loadTemplates([
 
     // Actor partials.
-    "systems/bladeoftheironthrone/templates/actor/parts/actor-features.html",
+    "systems/bladeoftheironthrone/templates/actor/parts/actor-skills.html",
     "systems/bladeoftheironthrone/templates/actor/parts/actor-items.html",
     "systems/bladeoftheironthrone/templates/actor/parts/actor-spells.html",
     "systems/bladeoftheironthrone/templates/actor/parts/actor-effects.html",

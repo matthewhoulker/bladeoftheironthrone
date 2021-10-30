@@ -100,7 +100,7 @@
           "value": "",
           "index": {
             "A": {
-              "description":"Can know all Mysteries, both Lesser and Greater.<br>Starts with 1 Arcane Secret.<br>+1 point in Occultism <br>+1 Proficiency in a Mystery<br>Cannot put more Proficiency points into Greater than into Lesser Mysteries",
+              "description": "Can know all Mysteries, both Lesser and Greater.<br>Starts with 1 Arcane Secret.<br>+1 point in Occultism <br>+1 Proficiency in a Mystery<br>Cannot put more Proficiency points into Greater than into Lesser Mysteries",
               "value": "Mysteriarch"
             },
             "B": {
@@ -129,28 +129,28 @@
           "value": "",
           "index": {
             "A": {
-              "description": "34",
-              "value": 34
+              "description": "+1 each to TY, HT & SY<br>1 Good or Supernatural Cultural Asset<br>+14 Skill Points",
+              "value": "Enlightened"
             },
             "B": {
-              "description": "29",
-              "value": 29
+              "description": "+1 each to TY, HT & SY.<br>+7 Skill Points (SY, HT & TY skills only)",
+              "value": "Educated"
             },
             "C": {
-              "description": "26",
-              "value": 26
+              "description": "+7 Skill Points (SY, HT & TY skills only)",
+              "value": "Cultured"
             },
             "D": {
-              "description": "24",
-              "value": 24
+              "description": "No Effect",
+              "value": "Civilized"
             },
             "E": {
-              "description": "22",
-              "value": 22
+              "description": "-1 to TY<br>-1 to BN or 1 poor asset",
+              "value": "Decadent"
             },
             "F": {
-              "description": "18",
-              "value": 18
+              "description": "-1 to 3 attributes<br>2 poor assets",
+              "value": "Degenerate"
             }
           }
         },
@@ -187,28 +187,28 @@
           "value": "",
           "index": {
             "A": {
-              "description": "34",
-              "value": 34
+              "description": "48",
+              "value": 48
             },
             "B": {
-              "description": "29",
-              "value": 29
+              "description": "33",
+              "value": 33
             },
             "C": {
-              "description": "26",
-              "value": 26
-            },
-            "D": {
               "description": "24",
               "value": 24
             },
-            "E": {
-              "description": "22",
-              "value": 22
-            },
-            "F": {
+            "D": {
               "description": "18",
               "value": 18
+            },
+            "E": {
+              "description": "12",
+              "value": 12
+            },
+            "F": {
+              "description": "0",
+              "value": 0
             }
           }
         },
@@ -216,28 +216,28 @@
           "value": "",
           "index": {
             "A": {
-              "description": "34",
-              "value": 34
+              "description": "16",
+              "value": 16
             },
             "B": {
-              "description": "29",
-              "value": 29
+              "description": "11",
+              "value": 11
             },
             "C": {
-              "description": "26",
-              "value": 26
+              "description": "8",
+              "value": 8
             },
             "D": {
-              "description": "24",
-              "value": 24
+              "description": "6",
+              "value": 6
             },
             "E": {
-              "description": "22",
-              "value": 22
+              "description": "4",
+              "value": 4
             },
             "F": {
-              "description": "18",
-              "value": 18
+              "description": "0",
+              "value": 0
             }
           }
         },
@@ -245,28 +245,28 @@
           "value": "",
           "index": {
             "A": {
-              "description": "34",
-              "value": 34
+              "description": "6 Good",
+              "value": "6 Good"
             },
             "B": {
-              "description": "29",
-              "value": 29
+              "description": "3 Good",
+              "value": "3 Good"
             },
             "C": {
-              "description": "26",
-              "value": 26
+              "description": "1 Good",
+              "value": "1 Good"
             },
             "D": {
-              "description": "24",
-              "value": 24
+              "description": "No Assets",
+              "value": "No Assets"
             },
             "E": {
-              "description": "22",
-              "value": 22
+              "description": "1 Poor",
+              "value": "1 Poor"
             },
             "F": {
-              "description": "18",
-              "value": 18
+              "description": "3 Poor",
+              "value": "3 Poor"
             }
           }
         }
@@ -283,7 +283,8 @@
     "types": [
       "item",
       "feature",
-      "spell"
+      "spell",
+      "skill"
     ],
     "templates": {
       "base": {
@@ -308,6 +309,38 @@
         "base"
       ],
       "spellLevel": 1
+    },
+    "skill": {
+      "name": "",
+      "description": "",
+      "value": 0,
+      "attribute": "",
+      "abilities": {
+        "brawn": {
+          "name": "brawn",
+          "abbr": "BN"
+        },
+        "daring": {
+          "name": "daring",
+          "abbr": "DG"
+        },
+        "tenacity": {
+          "name": "tenacity",
+          "abbr": "TY"
+        },
+        "heart": {
+          "name": "heart",
+          "abbr": "HT"
+        },
+        "sagacity": {
+          "name": "sagacity",
+          "abbr": "SY"
+        },
+        "cunning": {
+          "name": "cunning",
+          "abbr": "CG"
+        }
+      }
     }
   }
 }

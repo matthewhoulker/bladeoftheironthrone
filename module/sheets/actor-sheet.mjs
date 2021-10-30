@@ -90,6 +90,7 @@ export class botitActorSheet extends ActorSheet {
     // Initialize containers.
     const gear = [];
     const features = [];
+    const skills = [];
     const spells = {
       0: [],
       1: [],
@@ -110,6 +111,9 @@ export class botitActorSheet extends ActorSheet {
       if (i.type === 'item') {
         gear.push(i);
       }
+      if (i.type === 'skill') {
+        skills.push(i);
+      }
       // Append to features.
       else if (i.type === 'feature') {
         features.push(i);
@@ -124,6 +128,7 @@ export class botitActorSheet extends ActorSheet {
 
     // Assign and return
     context.gear = gear;
+    context.skills = skills;
     context.features = features;
     context.spells = spells;
    }

@@ -1,0 +1,24 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <header class="sheet-header">
+        <img class="profile-img" src="{{item.img}}" data-edit="img" title="{{item.name}}" />
+        <div class="header-fields">
+            <h1 class="charname"><input name="name" type="text" value="{{item.name}}" placeholder="Name" /></h1>
+        </div>
+    </header>
+    <h3>Attribute</h3>
+    <div class="flexrow">
+        <select name="data.attribute" dtype="String">
+            {{#select data.attribute}}
+            {{selectOptions data.abilities selected=data.attribute nameAttr="name" labelAttr="name"}}
+            {{/select}}
+        </select>
+    </div>
+    <h3>Description</h3>
+    <div class="flexrow skill-description">
+        {{editor content=data.description target="data.description" rollData=rollData button=false owner=owner
+        editable=true}}
+        <br>
+    </div>
+    </section>
+
+</form>
